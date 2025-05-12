@@ -1,6 +1,7 @@
 import axios from "axios";
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Footer from "./Footer";
 
 const SignIn = () => {
   const [email, setEmail] = useState("");
@@ -43,7 +44,7 @@ const SignIn = () => {
         {loading}
         {success}
         {error}
-        <form action="" onSubmit={handleSubmit} className='form'>
+        <form action="" onSubmit={handleSubmit} className="form">
           <input
             placeholder="enter your email"
             type="email"
@@ -70,6 +71,7 @@ const SignIn = () => {
           </button>
         </form>
       </div>
+      <Footer />
     </div>
   );
 };

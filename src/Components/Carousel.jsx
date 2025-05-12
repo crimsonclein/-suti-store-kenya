@@ -4,6 +4,7 @@ import pic1 from "../Components/Images/carousel1a.jpg";
 import pic2 from "../Components/Images/carouselb.jpg";
 import pic3 from "../Components/Images/carouselc.jpg";
 import pic4 from "../Components/Images/carouseld.jpg";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Carousel = () => {
   // Step 1: Manage the current slide index with state
